@@ -1,0 +1,111 @@
+<html>
+    <head><title>css grid demo 2020.03.24</title>
+
+        <style type="text/css">
+
+            body {
+                margin: 50px ;
+                font-family: Helvetica;
+                color: black;
+                font-size: 12px;
+            }
+
+            .grid_parent {
+                display: grid ;
+                grid-gap: 20px ;
+                grid-template-columns: 1fr 3fr;
+                grid-gap: 1em ;
+                grid-auto-rows: 200px ;
+                grid-auto-rows: minmax (200px, auto);
+                align-items: stretch;
+
+            }
+
+            .box_1 {
+                background-color: white ;
+                grid-column-start: 1;
+                grid-column-end: 1;
+                grid-row-start: 1;
+                grid-row-end: 4;
+                line-height: 30px;
+
+            }
+
+            .circlelogo {
+                text-decoration-color: 00AEEF;
+                text-align: center;
+                font-size: 60px;
+                width: 100px;
+                height: 100px;
+                background: #EC008C;
+                border-radius: 50%;
+                margin: 0px, 30px;
+            }
+
+            .tiantlab {
+
+                color: 00AEEF;
+                font-weight:400;
+
+            }
+
+            .dropdown {
+                color: black;
+                font-weight:400;
+                font-size: 12;
+
+            }
+
+
+            }
+
+            .box_2 {
+                background-color: #EC008C;
+                grid-column-start: 2;
+                grid-column-end: 4;
+                grid-row-start: 1;
+                grid-row-end: 4;
+
+            }
+
+            textgrid_parent {
+                display: grid ;
+                grid-gap: 20px ;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-gap: 1em ;
+                grid-auto-rows: 200px ;
+                grid-auto-rows: minmax (200px, auto);
+                align-items: stretch; 
+            }
+
+        </style>
+
+        <body>
+
+            <div class="grid_parent">
+                <div class="box_1">
+                    <div class = circlelogo> a </div>
+                    optassi mporem<br> voluptatis dolest<br> suntibusdae estius<br> audicia volorum
+                    <div class= tiantlab>
+                        tiant lab temoditas
+                        <div class = dropdown>
+                            velest quias <br> tibusandit quiatu    
+                        </div>
+                    </div>
+                    <br>dolorpo repuda <br>
+                </div>
+
+                <div class="box_2">text
+                    <div class="textgrid_parent">
+                        Buscid que nobit parum quas do-lorumet, te nes maios erferernam quassit volum ius voluptatum qui rerum excepudam nos dolupta doluptatum eosam alit venditas sapiti officiur, sapernam volor re venis moluptae dero beaquia dol-lecestor accus, nonsect atemolu ptatem voluptur? Duciis et ulparia nientio. Minvero optio ide porum invenih illuptaquias experferepro quiatur enimporibus es et excep-tae asit re voluptaquat.
+                        Voluptaquat
+                        Num eos eatisint arumque verr-umet ilique debitas es apis et aut et ommolup tibusandit quiatur sin nobistium, que aut voloria tum-quistion resequaepe voluptibus desecat usamus, cuscit labor maximetur, nobisci molorum esti blaut quunt anditis nis simodit aquiass invella dollis molorepe nihillanto volo mint. Faccus, si volestion preptum ut vollent, nonsequunti am volum fugia 
+                    </div>
+
+                </div>
+            </div>
+
+        </body>
+
+
+        <html>
