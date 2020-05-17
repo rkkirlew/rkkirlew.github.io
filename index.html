@@ -1,111 +1,99 @@
-<html>
-    <head><title>css grid demo 2020.03.24</title>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Barlow:ital@0;1&display=swap" rel="stylesheet"> 
+        
+                <link rel="stylesheet" type="text/css" href="fullcolorstyle.css">
 
-        <style type="text/css">
-
-            body {
-                margin: 50px ;
-                font-family: Helvetica;
-                color: black;
-                font-size: 12px;
-            }
-
-            .grid_parent {
-                display: grid ;
-                grid-gap: 20px ;
-                grid-template-columns: 1fr 3fr;
-                grid-gap: 1em ;
-                grid-auto-rows: 200px ;
-                grid-auto-rows: minmax (200px, auto);
-                align-items: stretch;
-
-            }
-
-            .box_1 {
-                background-color: white ;
-                grid-column-start: 1;
-                grid-column-end: 1;
-                grid-row-start: 1;
-                grid-row-end: 4;
-                line-height: 30px;
-
-            }
-
-            .circlelogo {
-                text-decoration-color: 00AEEF;
-                text-align: center;
-                font-size: 60px;
-                width: 100px;
-                height: 100px;
-                background: #EC008C;
-                border-radius: 50%;
-                margin: 0px, 30px;
-            }
-
-            .tiantlab {
-
-                color: 00AEEF;
-                font-weight:400;
-
-            }
-
-            .dropdown {
-                color: black;
-                font-weight:400;
-                font-size: 12;
-
-            }
+    </head>
 
 
-            }
 
-            .box_2 {
-                background-color: #EC008C;
-                grid-column-start: 2;
-                grid-column-end: 4;
-                grid-row-start: 1;
-                grid-row-end: 4;
 
-            }
 
-            textgrid_parent {
-                display: grid ;
-                grid-gap: 20px ;
-                grid-template-columns: 1fr 1fr 1fr;
-                grid-gap: 1em ;
-                grid-auto-rows: 200px ;
-                grid-auto-rows: minmax (200px, auto);
-                align-items: stretch; 
-            }
+    <body>
 
-        </style>
+        <div class="topnav">  
+            <div class="logo"> FULL COLOR </div>
+            <a href="#Photos">PHOTOS</a>
+            <a href="#BandBios">BAND BIOS</a>
+            <a href="#Music">MUSIC</a>
+            <a href="#events">EVENTS</a>
+            <a class="active" href="#home">HOME</a>
+        </div>
 
-        <body>
+        <div class="headerphoto"> 
+            <img src="https://downloads-pearljam-com.s3.amazonaws.com/assets/img/band.jpg" width="100%">  
+            <div class="bottom-left">FULL COLOR</div>
+        </div>
 
-            <div class="grid_parent">
-                <div class="box_1">
-                    <div class = circlelogo> a </div>
-                    optassi mporem<br> voluptatis dolest<br> suntibusdae estius<br> audicia volorum
-                    <div class= tiantlab>
-                        tiant lab temoditas
-                        <div class = dropdown>
-                            velest quias <br> tibusandit quiatu    
-                        </div>
-                    </div>
-                    <br>dolorpo repuda <br>
-                </div>
+        <div class="grid_parent"> 
 
-                <div class="box_2">text
-                    <div class="textgrid_parent">
-                        Buscid que nobit parum quas do-lorumet, te nes maios erferernam quassit volum ius voluptatum qui rerum excepudam nos dolupta doluptatum eosam alit venditas sapiti officiur, sapernam volor re venis moluptae dero beaquia dol-lecestor accus, nonsect atemolu ptatem voluptur? Duciis et ulparia nientio. Minvero optio ide porum invenih illuptaquias experferepro quiatur enimporibus es et excep-tae asit re voluptaquat.
-                        Voluptaquat
-                        Num eos eatisint arumque verr-umet ilique debitas es apis et aut et ommolup tibusandit quiatur sin nobistium, que aut voloria tum-quistion resequaepe voluptibus desecat usamus, cuscit labor maximetur, nobisci molorum esti blaut quunt anditis nis simodit aquiass invella dollis molorepe nihillanto volo mint. Faccus, si volestion preptum ut vollent, nonsequunti am volum fugia 
-                    </div>
 
-                </div>
+
+
+
+
+            <div class="main"> 
+                <H1> 
+                    Latest news
+                </H1>
+                <h2>MARCH 15 2020 </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur risus felis, luctus id nisl eget, laoreet scelerisque orci. Fusce sit amet placerat ligula, quis dignissim augue. Vestibulum interdum nulla odio, nec viverra tortor tempor id. Pellentesque at ex sed ipsum gravida cursus vel tempus neque. Fusce
+                </p>
+
+                <h2>JANUARY 20 2020</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur risus felis, luctus id nisl eget, laoreet scelerisque orci. Fusce sit amet placerat ligula, quis dignissim augue. Vestibulum interdum nulla odio, nec viverra tortor tempor id. Pellentesque at ex sed ipsum gravida cursus vel tempus neque. Fusce
+                </p>
+
+                <h2> DECEMBER 20 2019 </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur risus felis, luctus id nisl eget, laoreet scelerisque orci. Fusce sit amet placerat ligula, quis dignissim augue. Vestibulum interdum nulla odio, nec viverra tortor tempor id. Pellentesque at ex sed ipsum gravida cursus vel tempus neque. Fusce
+                </p>
             </div>
 
-        </body>
+            <div class="sidebar">
+                <H1> 
+                    Upcoming Events
+                </H1>
+                <h2> VIRTUAL CONCERT </h2>
+                <p>  May 3 2020 <br>
+                    Venue Here <br></p>
+                <button class=" button1">GET TICKETS</button>
+
+                <h2> VIRTUAL CONCERT </h2>
+                <p>  May 3 2020 <br>
+                    Venue Here <br></p>
+                <button class=" button1">GET TICKETS</button>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <h2> FOLLOW US ON SOCIAL MEDIA </h2>
+            <div class="socials">
+                <a href="https://upload.wikimedia.org/wikipedia/fr/c/c8/Twitter_Bird.svg"> <img border="0" alt="Socials" src="https://upload.wikimedia.org/wikipedia/fr/c/c8/Twitter_Bird.svg" width="30" height="30"> </a>
+            </div>    
+
+            <div class="socials">
+                <a href="https://upload.wikimedia.org/wikipedia/fr/c/c8/Twitter_Bird.svg"> <img border="0" alt="Socials" src="https://upload.wikimedia.org/wikipedia/fr/c/c8/Twitter_Bird.svg" width="30" height="30"> </a>
+            </div>
+
+            <div class="socials">
+                <a href="https://upload.wikimedia.org/wikipedia/fr/c/c8/Twitter_Bird.svg"> <img border="0" alt="Socials" src="https://upload.wikimedia.org/wikipedia/fr/c/c8/Twitter_Bird.svg" width="30" height="30"> </a>
+            </div>
+
+            <div class="socials">
+                <a href="https://upload.wikimedia.org/wikipedia/fr/c/c8/Twitter_Bird.svg"> <img border="0" alt="Socials" src="https://upload.wikimedia.org/wikipedia/fr/c/c8/Twitter_Bird.svg" width="30" height="30"> </a>
+            </div>
+            <p> Copyright 2020 Full Color. Site by Becca Kirlew. </p>
+
+        </div>
+
+    </body>
 
 
-        <html>
+</html>
